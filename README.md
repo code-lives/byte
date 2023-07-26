@@ -12,7 +12,7 @@
 ## 安装
 
 ```php
-composer require code-lives/byte
+composer require code-lives/byte 1.0.0
 ```
 
 ### ⚠️ 注意
@@ -136,9 +136,7 @@ $data= Byte::init($config)->sendMsg($data,$token);
 
 ```
 
-# 异步通知
-
-## 抖音
+### 支付回调
 
 ```php
 $byte = Byte::init($config);
@@ -169,7 +167,3 @@ if ($status) {
     }
 }
 ```
-
-# 感谢支持
-
-<img src="https://thumbnail0.baidupcs.com/thumbnail/b2ef03278l73b537b730fe8671ab5986?fid=289147368-250528-374896578244859&time=1689314400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Dzs8rsH9TbSoA%2FGo%2BZ4xk96Geh0%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=9125333982584419475&dp-callid=0&file_type=0&size=c710_u400&quality=100&vuk=-&ft=video" height="300px">
