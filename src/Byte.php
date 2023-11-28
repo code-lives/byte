@@ -41,7 +41,7 @@ class Byte
             throw new \Exception('not empty notify_url');
         }
         if (empty($config['token'])) {
-            throw new \Exception('not empty notify_url');
+            throw new \Exception('not empty token');
         }
         $class = new self();
         $class->app_id = $config['app_id'];
