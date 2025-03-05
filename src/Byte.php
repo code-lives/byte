@@ -136,7 +136,7 @@ class Byte
      *
      * @param  string $code
      * @param  string $anonymous_code
-     * @return void
+     * @return array
      * @author LiJie
      */
     public function getOpenid($code, $anonymous_code = "")
