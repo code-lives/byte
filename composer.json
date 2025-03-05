@@ -1,7 +1,7 @@
 {
     "name": "code-lives/byte",
     "description": "抖音小程序（支付、手机号解密、获取Token、支付异步通知、退款、订单查询、分账、模版消息）",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "library",
     "license": "MIT",
     "authors": [{
