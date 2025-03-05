@@ -12,7 +12,7 @@
 ## 安装
 
 ```php
-composer require code-lives/byte 1.0.0
+composer require code-lives/byte 1.0.2
 ```
 
 ### ⚠️ 注意
